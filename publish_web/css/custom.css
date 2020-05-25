@@ -1,0 +1,38 @@
+/* colors
+https://coolors.co/a3e7fc-f7c59f-00d1b2-2a324b-446df6 */
+
+:root {
+    --light-blue: #a3e7fc;
+    --peach: #f7c59f;
+    --turquise: #00d1b2;
+    --dark-metal: #2a324b;
+    --ultramarine: #446df6;
+}
+
+.is-larger {
+    font-size: 1.2em;
+}
+
+img.max-600 {
+    max-height: 600px;
+}
+
+
+.has-background-pink {
+    background-color: deeppink;
+    
+}
+
+.has-background-prototyping {
+    background-color: var(--ultramarine);
+}
+
+.has-background-prototyping .title, 
+.has-background-prototyping .subtitle { 
+    color: white;
+}
+
+.fix {
+    color:red;
+    font-weight: 900;
+}
